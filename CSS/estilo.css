@@ -1,0 +1,47 @@
+section{
+    width: 350px;
+    height: 350px;
+}
+
+.foto{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+    max-width: 400px;
+    transition: all 300ms;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+}
+
+.foto:hover{
+    transform: scale(1.15);
+}
+
+.texto1{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.texto1:hover{
+    
+}
+
+.texto2{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: brown;
+    text-align: center;
+}
